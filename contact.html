@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact | KCFinancials</title>
+<meta name="description" content="Book a free consultation with KCFinancials." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/styles.css" />
+<link rel="icon" type="image/svg+xml" href="/assets/img/logo.svg" />
+<meta property="og:title" content="Contact | KCFinancials" />
+<meta property="og:description" content="Book a free consultation with KCFinancials." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.kcfinancials.com/" />
+<meta property="og:image" content="https://www.kcfinancials.com/assets/img/og-image.png" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "name": "KCFinancials",
+  "url": "https://www.kcfinancials.com/",
+  "description": "Trusted guidance in estate planning, insurance, retirement, college planning, and rollover assistance.",
+  "areaServed": "US",
+  "logo": "https://www.kcfinancials.com/assets/img/logo.svg",
+  "sameAs": []
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/logo.svg" alt="KCFinancials logo" class="logo" />
+      <span class="brand-text">KCFinancials</span>
+    </a>
+    <nav class="nav">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/services.html" class="nav-link">Services</a>
+      <a href="/about.html" class="nav-link">About</a>
+      <a href="/contact.html" class="nav-link btn btn-primary">Free Consultation</a>
+    </nav>
+  </div>
+</header>
+<main class="page">
+  <section class="container">
+    <h1>Contact Us</h1>
+    <p>Have questions? Ready to plan? Send a message and we’ll get back within one business day.</p>
+
+    <form class="contact-form" method="POST" action="mailto:info@kcfinancials.com" enctype="text/plain" onsubmit="return window.validateContactForm(event)">
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-row">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" />
+      </div>
+      <div class="form-row">
+        <label for="service">Service Needed</label>
+        <select id="service" name="service">
+          <option>Estate Planning</option>
+          <option>Health Insurance</option>
+          <option>Term Life Insurance</option>
+          <option>College Planning</option>
+          <option>Tax‑Free Retirement</option>
+          <option>401(k)/IRA/SEP/Solo 401(k)</option>
+          <option>Rollover Assistance</option>
+          <option>Part‑Time Business Opportunities</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="tiny muted">Prefer booking directly? Add your scheduling link in this section.</p>
+      </div>
+    </form>
+
+    <div class="contact-details">
+      <h2>Other Ways to Reach Us</h2>
+      <ul class="list-unstyled">
+        <li><strong>Email:</strong> info@kcfinancials.com</li>
+        <li><strong>Phone:</strong> (XXX) XXX-XXXX</li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand-row">
+        <img src="/assets/img/logo.svg" alt="KCFinancials logo" class="logo small" />
+        <strong>KCFinancials</strong>
+      </div>
+      <p class="muted">Build, protect, and pass on wealth with personalized, ethical, and transparent planning.</p>
+      <p class="muted">This website provides general education and is not individualized tax, legal, or investment advice. Consult a licensed professional for your specific situation.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul class="list-unstyled">
+        <li><a href="/">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/privacy.html">Privacy</a></li>
+        <li><a href="/terms.html">Terms</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="list-unstyled">
+        <li><strong>Email:</strong> info@kcfinancials.com</li>
+        <li><strong>Phone:</strong> (XXX) XXX-XXXX</li>
+        <li><strong>Hours:</strong> Mon–Fri 9am–6pm</li>
+        <li><strong>Appointments:</strong> Virtual & In‑Person (by request)</li>
+      </ul>
+      <a class="btn btn-outline" href="/contact.html">Book a Free Consultation</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p class="muted">© 2026 KCFinancials. All rights reserved.</p>
+  </div>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
